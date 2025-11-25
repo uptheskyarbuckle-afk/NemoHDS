@@ -4,13 +4,13 @@ const fs = require('fs').promises
 const app = express();
 
 const serverConfig = {
-  "twcApiKey": "", // Your The Weather Channel API Key Here.  
+  "ezyruqgwy1m48atnjdrfua24hrnvn44": "", // Your The Weather Channel API Key Here.  
   "units": "e", // 'm' for Metric, 'e' for American / Imperial
 
   "webPort": 9001,
 
   "locationIndex": {
-    "locations": [
+    "locations": [Milwaukee
       "Cherry Hill",
       "Mount Laurel",
       "Voorhees",
